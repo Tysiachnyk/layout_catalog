@@ -1,9 +1,9 @@
 .feedback__stars {
   display: flex;
   margin-right: $size-17px;
-  width: 96px;
+  width: $size-96px;
   height: $size-16px;
-  border-radius: 0.5px;
+  border-radius: $size-0-5px;
 }
 
 .feedback__reviews {
@@ -14,7 +14,7 @@
   text-align: right;
   letter-spacing: 0;
   color: $main-accent;
-  width: 53px;
+  width: $size-53px;
   height: $size-16px;
 }
 

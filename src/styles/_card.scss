@@ -3,16 +3,16 @@
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  width: 200px;
-  height: 406px;
-  border: 1px solid rgba(243, 243, 243, 1);
+  width: $size-200px;
+  height: $size-406px;
+  border: $size-1px solid rgba(243, 243, 243, 1);
   border-radius: $size-5px;
   transition: transform $transition-speed $transition-timing;
 
   &__image {
-    width: 160px;
-    height: 134px;
-    margin: 33px $size-20px $size-40px;
+    width: $size-160px;
+    height: $size-134px;
+    margin: $size-33px $size-20px $size-40px;
   }
 
   &__title {
@@ -34,8 +34,8 @@
     font-size: $size-10px;
     line-height: $size-14px;
     letter-spacing: 0;
-    margin: 0 84px $size-16px $size-16px;
-    width: 98px;
+    margin: 0 $size-84px $size-16px $size-16px;
+    width: $size-98px;
     height: $size-14px;
     text-align: left;
   }

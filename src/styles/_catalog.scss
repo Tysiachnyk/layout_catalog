@@ -3,19 +3,18 @@
 
   display: grid;
   grid-template-columns: repeat(var(--column-count), 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: $size-46px $size-48px;
   padding: $size-50px $size-40px;
 
-  @media (min-width: 488px) {
+  @media (min-width: $small-screen) {
     --column-count: 2;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: $medium-screen) {
     --column-count: 3;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: $big-screen) {
     --column-count: 4;
   }
 }
