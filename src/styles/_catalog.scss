@@ -4,8 +4,8 @@
   display: grid;
   grid-template-columns: repeat(var(--column-count), 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 48px 46px;
-  padding: 46px 50px;
+  gap: $size-46px $size-48px;
+  padding: $size-50px $size-40px;
 
   @media (min-width: 488px) {
     --column-count: 2;
