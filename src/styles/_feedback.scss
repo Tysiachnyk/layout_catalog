@@ -1,0 +1,35 @@
+.feedback__stars {
+  display: flex;
+  margin-right: 17px;
+  width: 96px;
+  height: 16px;
+  border-radius: 0.5px;
+}
+
+.feedback__reviews {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  color: $main-accent;
+  width: 53px;
+  height: 16px;
+}
+
+.feedback__star {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/star.svg);
+}
+
+.feedback__star + .feedback__star {
+  margin-left: 4px;
+}
+
+.feedback__stars--4 :nth-child(-n + 4) {
+  background-image: url(../images/star-active.svg);
+}
